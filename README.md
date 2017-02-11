@@ -18,7 +18,9 @@ You can also calculate Altitude. However, you can only really do a good accurate
 ## How to connect this sensor into Raspberry PI?
 To connect this sensor to Raspberry PI you need 4 wires. Two of the wires used for voltage Vin (+3V from Raspberry) and ground GND and remaining two are used for data. 
 As this is digital sensor, it uses I2C protocol to communicate with the Raspberry. For I2C we need two wires, Data (SDA) and Clock (SCL).
-Connect sensor SDA and SCL pins accordingly to Raspberry SDA and SCL pins. 
+Connect sensor SDI and SCK pins accordingly to Raspberry SDA and SCL pins. 
+
+![image](https://cloud.githubusercontent.com/assets/13704023/22856394/3b6f5f9c-f099-11e6-8475-6c334e7d0358.png)
 
 ## How do I write the code?
 You need to add NuGet packages Glovebox.IoT.Devices and UnitsNet to your project and you are almost done :)
